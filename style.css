@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax (300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
